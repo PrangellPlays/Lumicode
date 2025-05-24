@@ -8,9 +8,9 @@
 		"Prangell"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": "",
-		"issues": ""
+		"homepage": "https://github.com/PrangellPlays/Lumicode",
+		"sources": "https://github.com/PrangellPlays/Lumicode",
+		"issues": "https://github.com/PrangellPlays/Lumicode/issues"
 	},
 	"license": "All Rights Reserved",
 	"icon": "assets/lumicode/icon.png",
