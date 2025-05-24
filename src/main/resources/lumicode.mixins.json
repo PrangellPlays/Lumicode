@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "dev.prangell.lumicode.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"server.ItemStackMixin"
+	],
+	"client": [
+		"client.BipedEntityModelMixin",
+		"client.HandledScreenMixin",
+		"client.InGameHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

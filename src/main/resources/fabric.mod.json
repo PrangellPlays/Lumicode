@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "lumicode",
+	"version": "${version}",
+	"name": "Lumicode",
+	"description": "A small library mod",
+	"authors": [
+		"Prangell"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "",
+		"issues": ""
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/lumicode/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.prangell.lumicode.Lumicode"
+		],
+		"client": [
+			"dev.prangell.lumicode.LumicodeClient"
+		]
+	},
+	"mixins": [
+		"lumicode.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
