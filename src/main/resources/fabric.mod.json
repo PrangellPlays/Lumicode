@@ -21,11 +21,15 @@
 		],
 		"client": [
 			"dev.prangell.lumicode.LumicodeClient"
+		],
+		"modmenu": [
+			"dev.prangell.lumicode.util.ModMenuCompat"
 		]
 	},
 	"mixins": [
 		"lumicode.mixins.json"
 	],
+	"accessWidener": "lumicode.accesswidener",
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.20.1",
@@ -33,6 +37,13 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"modmenu": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/KREK6TBwaV"
+			}
+		}
 	}
 }
